@@ -1,119 +1,46 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MaDaLace — нежность и огонь в одном кружеве</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- Хедер -->
-    <header>
-        <div class="logo">
-            <img src="https://via.placeholder.com/150x50?text=MaDaLace" alt="MaDaLace Logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#catalog">Каталог</a></li>
-                <li><a href="#new">Новинки</a></li>
-                <li><a href="#sales">Акции</a></li>
-                <li><a href="#about">О нас</a></li>
-                <li><a href="#contact">Контакты</a></li>
-            </ul>
-        </nav>
-        <div class="search">
-            <input type="text" placeholder="Поиск...">
-        </div>
-    </header>
+<!-- Секция категорий -->
+<section class="categories">
+  <div class="category">
+      <img src="img/category1.jpg" alt="Lingerie">
+      <p>Lingerie</p>
+  </div>
+  <div class="category">
+      <img src="img/category2.jpg" alt="Sleepwear">
+      <p>Sleepwear</p>
+  </div>
+  <div class="category">
+      <img src="img/category3.jpg" alt="Accessories">
+      <p>Accessories</p>
+  </div>
+</section>
 
-    <!-- Главный баннер -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>MaDaLace</h1>
-            <p>нежность и огонь в одном кружеве</p>
-            <a href="#catalog" class="btn">Перейти в каталог</a>
-        </div>
-        <img src="https://images.pexels.com/photos/1477327/pexels-photo-1477327.jpeg" alt="Hero Image">
-    </section>
-
-    <!-- Популярные категории -->
-    <section class="categories">
-        <h2>Выбирай по настроению</h2>
-        <div class="category-list">
-            <div class="category-item">
-                <img src="https://images.pexels.com/photos/3775176/pexels-photo-3775176.jpeg" alt="Бюстгальтеры">
-                <h3>Бюстгальтеры</h3>
-            </div>
-            <div class="category-item">
-                <img src="https://images.pexels.com/photos/3775176/pexels-photo-3775176.jpeg" alt="Трусики">
-                <h3>Трусики</h3>
-            </div>
-            <div class="category-item">
-                <img src="https://images.pexels.com/photos/1477327/pexels-photo-1477327.jpeg" alt="Комплекты">
-                <h3>Комплекты</h3>
-            </div>
-            <div class="category-item">
-                <img src="https://images.pexels.com/photos/3775176/pexels-photo-3775176.jpeg" alt="Пижамы">
-                <h3>Пижамы</h3>
-            </div>
-        </div>
-    </section>
-
-    <!-- Хиты продаж -->
-    <section class="best-sellers" id="new">
-        <h2>Новинки</h2>
-        <div class="product-list">
-            <div class="product-item">
-                <img src="https://images.pexels.com/photos/3775176/pexels-photo-3775176.jpeg" alt="Product 1">
-                <p>Бюстгальтер MaDaLace</p>
-                <span>$29.99</span>
-                <a href="#" class="btn">В корзину</a>
-            </div>
-            <div class="product-item">
-                <img src="https://images.pexels.com/photos/3775176/pexels-photo-3775176.jpeg" alt="Product 2">
-                <p>Трусики MaDaLace</p>
-                <span>$19.99</span>
-                <a href="#" class="btn">В корзину</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Акции -->
-    <section class="sales" id="sales">
-        <h2>Акции</h2>
-        <div class="sale-item">
-            <h3>3+1 бесплатно!</h3>
-            <p>Выберите 3 товара, а 4-й получаете в подарок.</p>
-        </div>
-        <div class="sale-item">
-            <h3>-20% на первую покупку</h3>
-            <p>Скидка на первый заказ при подписке на рассылку.</p>
-        </div>
-    </section>
-
-    <!-- Подписка на новости -->
-    <section class="newsletter">
-        <h2>Будь в курсе новых коллекций и акций!</h2>
-        <form action="#">
-            <input type="email" placeholder="Введи свой email">
-            <button type="submit" class="btn">Подписаться</button>
-        </form>
-    </section>
-
-    <!-- Футер -->
-    <footer>
-        <div class="footer-links">
-            <a href="#about">О компании</a>
-            <a href="#contact">Контакты</a>
-            <a href="#">Политика конфиденциальности</a>
-        </div>
-        <div class="social-media">
-            <a href="#">Instagram</a>
-            <a href="#">Facebook</a>
-            <a href="#">TikTok</a>
-        </div>
-    </footer>
-    
-    <script src="scripts.js"></script>
-</body>
-</html>
+<!-- Секция продуктов -->
+<section class="products">
+  <div class="product">
+      <img src="img/product1.jpg" alt="Lace Bra">
+      <div class="product-info">
+          <h3>Lace Bra</h3>
+          <p>Elegant lace bra with soft cup</p>
+          <div class="price">$39.99</div>
+          <button>Add to Cart</button>
+      </div>
+  </div>
+  <div class="product">
+      <img src="img/product2.jpg" alt="Silk Sleepwear">
+      <div class="product-info">
+          <h3>Silk Sleepwear</h3>
+          <p>Luxurious silk nightgown</p>
+          <div class="price">$89.99</div>
+          <button>Add to Cart</button>
+      </div>
+  </div>
+  <div class="product">
+      <img src="img/product3.jpg" alt="Lace Stockings">
+      <div class="product-info">
+          <h3>Lace Stockings</h3>
+          <p>Delicate lace stockings</p>
+          <div class="price">$19.99</div>
+          <button>Add to Cart</button>
+      </div>
+  </div>
+</section>
