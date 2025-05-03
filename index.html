@@ -1,9 +1,10 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MaDaLace</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,45 +20,57 @@
   </header>
 
   <main>
-    <section class="hero">
-      <h1>Нежность и огонь в кружеве</h1>
-      <p>Добро пожаловать в MaDaLace!</p>
+    <!-- Hero-слайдер -->
+    <section class="hero" id="hero-slider">
+      <div class="hero-content">
+        <h1>Нежность и огонь в кружеве</h1>
+        <p>Добро пожаловать в MaDaLace! Откройте для себя коллекцию изысканного нижнего белья.</p>
+        <a href="catalog.html" class="btn">Смотреть каталог</a>
+      </div>
     </section>
 
     <!-- Популярные товары -->
     <section class="featured-products container">
       <h2>Популярные товары</h2>
-      <ul class="products-grid">
-        <li>
+      <div class="products-grid">
+        <div class="product-card">
           <a href="product.html">
             <img src="https://www.intimissimi.com/ua/media/catalog/product/cache/1/thumbnail/416x544/9df78eab33525d08d6e5fb8d27136e95/i/n/intel001.jpg" alt="Силиконовые чашечки">
-            <h3>Силиконовые чашечки</h3>
-            <p>₴ 1 499</p>
+            <div class="info">
+              <h3>Силиконовые чашечки</h3>
+              <p class="price">₴ 1 499</p>
+            </div>
           </a>
-        </li>
-        <li>
+        </div>
+        <div class="product-card">
           <a href="product.html">
             <img src="https://www.intimissimi.com/ua/media/catalog/product/cache/1/thumbnail/416x544/9df78eab33525d08d6e5fb8d27136e95/g/i/gioia.jpg" alt="Бюстгальтер-бандо Gioia">
-            <h3>Бюстгальтер-бандо Gioia</h3>
-            <p>₴ 1 729</p>
+            <div class="info">
+              <h3>Бюстгальтер-бандо Gioia</h3>
+              <p class="price">₴ 1 729</p>
+            </div>
           </a>
-        </li>
-        <li>
+        </div>
+        <div class="product-card">
           <a href="product.html">
             <img src="https://www.intimissimi.com/ua/media/catalog/product/cache/1/thumbnail/416x544/9df78eab33525d08d6e5fb8d27136e95/a/n/anna.jpg" alt="Балконет Transformer Anna">
-            <h3>Балконет Transformer Anna</h3>
-            <p>₴ 2 299</p>
+            <div class="info">
+              <h3>Балконет Transformer Anna</h3>
+              <p class="price">₴ 2 299</p>
+            </div>
           </a>
-        </li>
-        <li>
+        </div>
+        <div class="product-card">
           <a href="product.html">
             <img src="https://www.intimissimi.com/ua/media/catalog/product/cache/1/thumbnail/416x544/9df78eab33525d08d6e5fb8d27136e95/d/e/denise.jpg" alt="Балконет Denise">
-            <h3>Балконет Denise</h3>
-            <p>₴ 1 899</p>
+            <div class="info">
+              <h3>Балконет Denise</h3>
+              <p class="price">₴ 1 899</p>
+            </div>
           </a>
-        </li>
-      </ul>
-      <a href="catalog.html" class="btn">Смотреть полный каталог</a>
+        </div>
+      </div>
+      <a href="catalog.html" class="btn">Перейти в каталог</a>
     </section>
   </main>
 
