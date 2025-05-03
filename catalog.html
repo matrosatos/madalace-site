@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог — MaDaLace</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a href="index.html" class="logo-link"><img src="img/logo2.png" alt="MaDaLace" class="logo"></a>
+    <button class="burger" aria-label="Menu">☰</button>
+    <nav class="nav-menu">
+      <a href="index.html">Главная</a>
+      <a href="catalog.html">Каталог</a>
+      <a href="about.html">О нас</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Фильтры</h2>
+    <form class="filters">
+      <select name="category">
+        <option>Все категории</option>
+        <option>Бюстгальтеры</option>
+        <option>Трусики</option>
+      </select>
+      <select name="size">
+        <option>Все размеры</option>
+        <option>70B</option>
+        <option>75B</option>
+      </select>
+      <input type="range" name="price" min="1000" max="3000" step="100" value="3000">
+      <button type="submit">Применить</button>
+    </form>
+
+    <h2>Товары</h2>
+    <ul class="products-grid">
+      <li>
+        <a href="product.html">
+          <img src="https://www.intimissimi.com/ua/media/catalog/product/cache/1/thumbnail/416x544/9df78eab33525d08d6e5fb8d27136e95/i/n/intel001.jpg" alt="Силиконовые чашечки">
+          <h3>Силиконовые чашечки</h3>
+          <p>₴ 1 499</p>
+        </a>
+      </li>
+      <li>
+        <a href="product.html">
+          <img src="https://www.intimissimi.com/ua/media/catalog/product/cache/1/thumbnail/416x544/9df78eab33525d08d6e5fb8d27136e95/g/i/gioia.jpg" alt="Бюстгальтер-бандо Gioia">
+          <h3>Бюстгальтер-бандо Gioia</h3>
+          <p>₴ 1 729</p>
+        </a>
+      </li>
+      <li>
+        <a href="product.html">
+          <img src="https://www.intimissimi.com/ua/media/catalog/product/cache/1/thumbnail/416x544/9df78eab33525d08d6e5fb8d27136e95/a/n/anna.jpg" alt="Балконет Transformer Anna">
+          <h3>Балконет Transformer Anna</h3>
+          <p>₴ 2 299</p>
+        </a>
+      </li>
+      <li>
+        <a href="product.html">
+          <img src="https://www.intimissimi.com/ua/media/catalog/product/cache/1/thumbnail/416x544/9df78eab33525d08d6e5fb8d27136e95/d/e/denise.jpg" alt="Балконет Denise">
+          <h3>Балконет Denise</h3>
+          <p>₴ 1 899</p>
+        </a>
+      </li>
+    </ul>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
