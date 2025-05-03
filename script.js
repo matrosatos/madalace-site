@@ -6,3 +6,4 @@ document.querySelector('.burger').addEventListener('click', ()=>{
     e.preventDefault();
     alert('Фильтры применены');
   });
+  
